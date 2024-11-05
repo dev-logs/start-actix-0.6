@@ -15,7 +15,7 @@ leptos = { version = "0.6"{% if nightly == "Yes" %}, features = ["nightly"]{% en
 leptos_meta = { version = "0.6"{% if nightly == "Yes" %}, features = ["nightly"]{% endif %} }
 leptos_actix = { version = "0.6", optional = true }
 leptos_router = { version = "0.6"{% if nightly == "Yes" %}, features = ["nightly"]{% endif %} }
-wasm-bindgen = "=0.2.93"
+wasm-bindgen = "=0.2.95"
 
 [features]
 csr = ["leptos/csr", "leptos_meta/csr", "leptos_router/csr"]
